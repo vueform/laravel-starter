@@ -5,7 +5,7 @@
 
 </a>
 
-# Vueform Laravel + Vue 3 + TailwindCSS 3 Boilerplate
+# Vueform Laravel + Vue 3 + Tailwind CSS 3 Boilerplate
 
 *Last tested with Laravel 8.75.*
 

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Vueform Laravel + Vue 3 + TailwindCSS 3 Boilerplate</title>
+    <title>Vueform Laravel + Vue 3 + Tailwind CSS 3 Boilerplate</title>
 
     <link href="/css/app.css" rel="stylesheet">
 </head>
