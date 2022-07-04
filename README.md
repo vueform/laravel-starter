@@ -9,28 +9,50 @@
 
 *Last tested with Laravel 8.75.*
 
-## Installation
+## Installation (free)
 
 1. Clone this repo with:<br>`git clone https://github.com/vueform/laravel-starter vueform-laravel-starter`
 2. Log in to your account at <a href="https://vueform.com/sign-in" target="_blank">vueform.com/sign-in</a>
 3. Go to **Projects** > **+ New project**
-4. Add `localhost` to **Project urls** and create the project
-5. Download the latest `vueform-x.x.x-hash.zip` file and unzip it
-6. Move the **contents** of the unzipped folder to this projects's `./packages/vueform` folder (`./packages/vueform/index.js` must exist)
-7. Go to project folder `cd vueform-laravel-starter`
-8. Run `composer install` to install Laravel
+4. Create a new project and copy your **API Key** to `vueform.config.js`
+5. Go to project folder `cd vueform-laravel-starter`
+6. Run `composer install` to install Laravel
 
 ### npm
 
-9. Run `npm install` to install dependencies
-10. Run `npm run dev` to compile assets
-11. Run `php artisan serve` to start the server
+7. Run `npm install` to install dependencies
+8. Run `npm run dev` to compile assets
+9. Run `php artisan serve` to start the server
 
 ### yarn
 
-9. Run `yarn install` to install dependencies
-10. Run `yarn run dev` to compile assets
-11. Run `php artisan serve` to start the server
+7. Run `yarn install` to install dependencies
+8. Run `yarn run dev` to compile assets
+9. Run `php artisan serve` to start the server
+
+## Installation (with license)
+
+1. Clone this repo with:<br>`git clone https://github.com/vueform/laravel-starter vueform-laravel-starter`
+2. Log in to your account at <a href="https://vueform.com/sign-in" target="_blank">vueform.com/sign-in</a>
+3. Go to **Projects** > **+ New project**
+4. Add `localhost` and live domains to **Project domains** and create the project
+5. Download the latest `vueform-x.x.x-hash.zip` file and unzip it
+6. Move the **contents** of the unzipped folder to this projects's `./packages/vueform` folder (`./packages/vueform/index.js` must exist)
+7. Change `"@vueform/vueform": "^1.2.6"` to `"@vueform/vueform": "file:./packages/vueform"` in `package.json`
+8. Go to project folder `cd vueform-laravel-starter`
+9. Run `composer install` to install Laravel
+
+### npm
+
+10. Run `npm install` to install dependencies
+11. Run `npm run dev` to compile assets
+12. Run `php artisan serve` to start the server
+
+### yarn
+
+10. Run `yarn install` to install dependencies
+11. Run `yarn run dev` to compile assets
+12. Run `php artisan serve` to start the server
 
 ## Demo
 
